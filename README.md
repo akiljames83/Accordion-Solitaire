@@ -3,7 +3,7 @@ This is my submission for the Kleiner Perkins Optional Programming Challenge. I 
 
 ### Entry Point
 To play this game run the following command on the command line inside this directory:
-```
+```bash
 >>> python main.py
 ```
 
@@ -23,7 +23,7 @@ For official game description and rules, please check out the link in the source
 
 ### Testing
 For testing I used the framework PyTest. To run my testing files perform the following commands within this projects directory:
-```
+```bash
 >>> cd tests/
 >>> pytest -v
 ```
