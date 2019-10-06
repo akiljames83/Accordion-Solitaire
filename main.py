@@ -48,9 +48,3 @@ if __name__ == "__main__":
 
 		# Let player choose next move
 		gb.prompt_for_move()
-
-	print('''\n
-		***********************************************
-		*              Thanks for Playing!            *
-		***********************************************
-		\n''')
