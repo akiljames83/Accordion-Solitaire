@@ -116,7 +116,7 @@ class Gameboard:
 		# Ensure a valid choice was given
 		while (move_choice != 1 and move_choice != 3):
 			print("\n		Please provide a valid input...\n")
-			print("		Would you like to collapse 1 to the right (Enter 1) or 3 to the right (Enter 3) (1 or 3)", end = "	")
+			print("		Would you like to collapse 1 to the right (Enter 1) or 3 to the right (Enter 3)? (1 or 3)", end = "	")
 			try:
 				move_choice = int(input().strip())
 			except:
@@ -132,7 +132,7 @@ class Gameboard:
 			self.display_state()
 			self.prompt_for_move()
 			return
-			
+
 		else:
 			print("\n		Invalid move! Try again.\n")
 			self.make_a_move()
