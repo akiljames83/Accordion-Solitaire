@@ -100,8 +100,8 @@ class Gameboard:
 
 		new_card = card_choice + move_choice
 		if (self.valid_move(card_choice, new_card)):
-			print("First card:", self.board[card_choice])
-			print("Second card:", self.board[new_card])
+			print("		First card:", self.board[card_choice])
+			print("		Second card:", self.board[new_card])
 			self.board[card_choice] = self.board[new_card]
 			del self.board[new_card]
 			print("\n 		Successful move made! Here is the updated board: \n")
