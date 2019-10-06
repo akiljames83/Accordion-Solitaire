@@ -13,8 +13,9 @@ def test_gameboard_init():
 	assert len(gb.deck.cards) == 50
 
 	# Ensure that the cards displayed are different
-	assert gb.board[0].suit != gb.board[1].suit
-	assert gb.board[0].rank != gb.board[1].rank
+	suit_check = gb.board[0].suit != gb.board[1].suit
+	rank_check = gb.board[0].rank != gb.board[1].rank
+	assert suit_check and rank_check
 
 # Validation Function Tests
 

@@ -1,5 +1,8 @@
-
-class Card: # Base class of interaction in the game
+class Card: 
+	'''
+	Base class of interaction in the game. Initialization specifies the suit 
+	and rank for the card
+	'''
 
 	def __init__(self, s, r):
 		self.suit = s

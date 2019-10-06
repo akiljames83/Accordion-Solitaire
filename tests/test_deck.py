@@ -62,7 +62,6 @@ def test_deck_draw():
 	for i in range(51):
 		deck.draw()
 
-	# Ensure that an empty deck returns a bool value of false
+	# Ensure that an empty deck returns a None value
 	empty_draw = deck.draw()
-	assert isinstance(empty_draw, bool) == True
-	assert empty_draw == False
+	assert empty_draw == None
