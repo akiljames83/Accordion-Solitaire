@@ -1,4 +1,4 @@
-## Welcome to Accordian Solitaire
+## Welcome to Accordion Solitaire
 This is my submission for the Kleiner Perkins Optional Programming Challenge. I have implemented the somewhat popular solitare version "Accordian" in Python 3.5. In this document I will outline how to run the script, how to play the game as well as briefly go over my testing and design decisions.
 
 ### Entry Point
