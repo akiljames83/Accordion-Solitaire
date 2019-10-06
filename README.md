@@ -8,7 +8,7 @@ To play this game, run the following command on the command line inside this dir
 ```
 
 ### Game Explanation
-The goal of the game is to create the smallest number of card piles (ideally ending up at 1!). In this single player game, the user will progresively reveal cards from the deck and strategically make moves to condense card piles if possible. The game is complete when there is only 1 card pile left or if there are no more possible moves and all cards have been reveleaed from the deck.
+The goal of the game is to create the smallest number of card piles (ideally ending up at 1!). In this single player game, the user will progresively reveal cards from the deck and strategically make moves to condense the number of card piles if possible. The game is complete when there is only 1 card pile left or if there are no more possible moves and all cards have been reveleaed from the deck.
 
 ### Game Rules
 For official game description and rules, please check out the link in the sources section.

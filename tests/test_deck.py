@@ -45,18 +45,24 @@ def test_deck_shuffle():
 
 def test_deck_draw():
 	deck = Deck()
-
-	assert len(deck.cards) == 52
 	first_card = deck.cards[0]
+
+	# Ensure card is removed with draw func
+	assert len(deck.cards) == 52
 	draw_card = deck.draw()
 	assert len(deck.cards) == 51
+
+	# Ensure the value returned is of type card and that it is the 
+	# same as first value in the deck.cards array
 	assert type(draw_card) == type(first_card)
 	assert draw_card.suit == first_card.suit
 	assert draw_card.rank == first_card.rank
 
+	# Remove all cards from the deck
 	for i in range(51):
 		deck.draw()
 
+	# Ensure that an empty deck returns a bool value of false
 	empty_draw = deck.draw()
 	assert isinstance(empty_draw, bool) == True
 	assert empty_draw == False
