@@ -10,4 +10,4 @@ class Card:
 
 	# Clean way to represent the cards
 	def __str__(self): 
-		return "		Card: [{}, {}]	".format(self.suit, self.rank)
+		return "[ ({}, {}) ]".format(self.suit, self.rank)

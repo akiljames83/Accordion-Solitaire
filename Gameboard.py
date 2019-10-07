@@ -30,7 +30,7 @@ class Gameboard:
 		for i, card in enumerate(self.board):
 			if not (i % self.ROW_LENGTH):
 				print("\n\n		", end="")
-			print("{}. [ ({},{}) ]	".format(i+1, card.suit, card.rank), end= "")
+			print("{}. {}\t".format(i+1, card), end= "")
 
 		print("\n")
 
