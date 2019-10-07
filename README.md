@@ -2,7 +2,7 @@
 This is my submission for the Kleiner Perkins Optional Programming Challenge. I have implemented the somewhat popular solitare version "Accordion" in Python 3.5. In this document I will outline how to run the script, how to play the game as well as briefly go over my testing and design decisions.
 
 ### Entry Point
-To play this game, run the following command on the command line inside this directory:
+This game requires python 3+. To play, run the following command on the command line inside this directory:
 ```bash
 >>> python main.py
 ```
